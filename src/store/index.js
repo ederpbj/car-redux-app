@@ -1,6 +1,7 @@
 import {createStore} from 'redux';
 
-function reducer(state, action) {
+// caso state seja undefined retorna array vazio
+function reducer(state = [], action) {
     return state
 }
 

@@ -5,7 +5,7 @@ import './styles.css';
 
 export default function Header() {
 	return (
-		<nav className="l-header navbar navbar-expand-lg navbar-dark bg-primary">
+		<nav className="navbar navbar-expand-lg navbar-light bg-light">
 			<NavLink to="/list" activeClassName="active" className="navbar-brand">
 				Shopping-Car
 			</NavLink>

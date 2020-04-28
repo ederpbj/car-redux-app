@@ -3,8 +3,9 @@ import React, {useState} from 'react';
 // para disparar actions
 import { useDispatch } from "react-redux";
 
-// importar a action cars
+// importar a actions
 import {addCar} from '../../store/cars'
+import {showMessage, hideMessage} from '../../store/layout'
 
 export default function Add() {
 	const [form, setForm] = useState({name: '', url: ''});
@@ -20,11 +21,20 @@ export default function Add() {
 	function onSubmit(e){
 		e.preventDefault();
 		console.log("Formulário: ",form)
-		// passar para action, dispara uma action
+		// passar para action, 
+		// dispara uma action
 		dispatch(addCar(form));
 
 		// Zerar form
 		setForm({name: '', url: ''});
+
+		// disparar
+		dispatch(showMessage());
+
+		// apagar message
+		setTimeout(() => {
+			dispatch(hideMessage());
+		}, 2500);
 	}
 
 	return (

@@ -40,6 +40,9 @@ Git hub do projeto [Meu git](https://github.com/ederpbj/car-redux-app).
 ### Bootstrap
 [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 
+### Pequenos ajustes bootstrap
+[Utilities](https://getbootstrap.com/docs/4.4/utilities/borders/)
+
 ### BootstrapCDN
 [BootstrapCDN](https://www.bootstrapcdn.com/bootswatch/)
 

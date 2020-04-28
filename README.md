@@ -25,3 +25,6 @@ Git hub do projeto [Meu git](https://github.com/ederpbj/car-redux-app).
 
 ### Ver commits realizados
 ### `git shortlog`
+
+### Configurar chave ssh
+### `C:\Users\my_user\.ssh\id_rsa.pub`

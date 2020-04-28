@@ -1,25 +1,16 @@
 import React from 'react';
 import Car from '../../components/Car';
+// usando hooks, qual estado trago: (reducer)
+import {useSelector} from 'react-redux'
 
-const cars = [
-	{
-		name: 'Ferrari',
-		url:
-			'https://images.pexels.com/photos/337909/pexels-photo-337909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
-	},
-	{
-		name: 'Mercedes',
-		url:
-			'https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
-	},
-	{
-		name: 'Audi',
-		url:
-			'https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
-	}
-];
+// Removar para usar initial_state
+// const cars = [];
 
 export default function List() {
+	// selector retorna para mim meu estado (state)
+	// Redux: state nesse caso pega de apenas um reducer
+	const cars = useSelector(state => state)
+
 	return (
 		<div className="container-fluid">
 			<div className="row">{cars.map(

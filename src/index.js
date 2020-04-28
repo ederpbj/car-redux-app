@@ -7,7 +7,8 @@ import App from './App';
 import store from './store'
 
 render(
-	// Provider envolve toda aplicação
+	// Provider envolve toda aplicação,
+	
 	<Provider store={store}>
 		<BrowserRouter>
 			<App />

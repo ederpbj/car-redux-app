@@ -1,33 +1,33 @@
 Git hub do projeto [Meu git](https://github.com/ederpbj/car-redux-app).
 
-## Available Scripts
+## Comando no terminal
 
-### Testar projeto
-### `yarn start`
+#### Testar projeto
+#### `yarn start`
 
-### cmd
-### `npm install -g create-react-app`
+#### Instalar reactjs
+#### `npm install -g create-react-app`
 
-### Criar projeto
-### `create-react-app car-redux-app`
+#### Criar projeto
+#### `create-react-app car-redux-app`
 
-### Criando com npx
-### `npx create-react-app minha-primeira-app`
+#### Criando com npx
+#### `npx create-react-app minha-primeira-app`
 
-### Subindo app
-### `npm start`
+#### Subindo app
+#### `npm start`
 
-### Adicionar no git
-### `git remote add origin`
+#### Adicionar no git
+#### `git remote add origin`
 
-### Adicionar redux
-### `yarn add redux`
+#### Adicionar redux
+#### `yarn add redux`
 
-### Ver commits realizados
-### `git shortlog`
+#### Ver commits realizados
+#### `git shortlog`
 
-### Configurar chave ssh
-### `C:\Users\my_user\.ssh\id_rsa.pub`
+#### Configurar chave ssh
+#### `C:\Users\my_user\.ssh\id_rsa.pub`
 
 #### Adicionar react-redux
 #### `yarn add react-redux`

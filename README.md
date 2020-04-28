@@ -6,11 +6,10 @@ Git hub do projeto [Meu git](https://github.com/ederpbj/car-redux-app).
 ### `yarn start`
 
 ### cmd
-## `npm install -g create-react-app`
+### `npm install -g create-react-app`
 
 ### Criar projeto
-## `create-react-app car-redux-app`
-
+### `create-react-app car-redux-app`
 
 ### Criando com npx
 ### `npx create-react-app minha-primeira-app`
@@ -23,3 +22,6 @@ Git hub do projeto [Meu git](https://github.com/ederpbj/car-redux-app).
 
 ### Adicionar redux
 ### `yarn add redux`
+
+### Ver commits realizados
+### `git shortlog`

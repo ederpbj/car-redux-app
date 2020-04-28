@@ -34,3 +34,7 @@ Git hub do projeto [Meu git](https://github.com/ederpbj/car-redux-app).
 
 #### Teste
 #### `Teste`
+
+## Desvendando redux 
+[Aula2](https://www.youtube.com/watch?v=4LIcojw7484&list=PLK5FPzMuRKlyILd8Jh08M6a1-htpHYzwv&index=2&ab_channel=WashingtonDeveloper)
+

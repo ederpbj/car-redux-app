@@ -9,7 +9,7 @@ import {useSelector} from 'react-redux'
 export default function List() {
 	// selector retorna para mim meu estado (state)
 	// Redux: state nesse caso pega de apenas um reducer
-	const cars = useSelector(state => state)
+	const cars = useSelector(state => state.cars)
 
 	return (
 		<div className="container-fluid">

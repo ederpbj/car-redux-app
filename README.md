@@ -32,3 +32,6 @@ Git hub do projeto [Meu git](https://github.com/ederpbj/car-redux-app).
 #### Adicionar react-redux
 #### `yarn add react-redux`
 
+#### Teste
+#### `Teste`
+

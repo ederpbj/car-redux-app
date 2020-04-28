@@ -23,5 +23,16 @@ const INITIAL_STATE = [
 // caso state seja undefined state retorna array vazio []
 // Setando initial_state com lista de carros
 export default function reducer(state = INITIAL_STATE, action) {
+    if(action.type === 'ADD_CAR'){
+        return [...state, action.car];
+    }
     return state
+}
+
+// Criando action
+export const addCar = car => {
+    return{
+        type: 'ADD_CAR',
+        car
+    }
 }

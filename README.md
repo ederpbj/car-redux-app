@@ -32,9 +32,7 @@ Git hub do projeto [Meu git](https://github.com/ederpbj/car-redux-app).
 #### Adicionar react-redux
 #### `yarn add react-redux`
 
-
-## Desvendando redux 
-[Aula 2](https://www.youtube.com/watch?v=4LIcojw7484&list=PLK5FPzMuRKlyILd8Jh08M6a1-htpHYzwv&index=2&ab_channel=WashingtonDeveloper)
+## Uteis 
 
 ### Fotos Gratuitas (url)
 [Pixels](https://www.pexels.com/pt-br/)
@@ -45,6 +43,11 @@ Git hub do projeto [Meu git](https://github.com/ederpbj/car-redux-app).
 ### BootstrapCDN
 [BootstrapCDN](https://www.bootstrapcdn.com/bootswatch/)
 
-## Desvendando o Redux #3: Reducer de alerta de Messagem
+## Aulas 
+
+### Desvendando redux 
+[Aula 2](https://www.youtube.com/watch?v=4LIcojw7484&list=PLK5FPzMuRKlyILd8Jh08M6a1-htpHYzwv&index=2&ab_channel=WashingtonDeveloper)
+
+### Desvendando o Redux #3: Reducer de alerta de Messagem
 [Aula 3](https://www.youtube.com/watch?v=q0cca7fcpJ0&list=PLK5FPzMuRKlyILd8Jh08M6a1-htpHYzwv&index=3&ab_channel=WashingtonDeveloper)
 

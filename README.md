@@ -29,6 +29,6 @@ Git hub do projeto [Meu git](https://github.com/ederpbj/car-redux-app).
 ### Configurar chave ssh
 ### `C:\Users\my_user\.ssh\id_rsa.pub`
 
-### Adicionar react-redux
-### `yarn add react-redux`
+#### Adicionar react-redux
+#### `yarn add react-redux`
 

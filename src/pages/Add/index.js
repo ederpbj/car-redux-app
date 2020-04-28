@@ -22,6 +22,9 @@ export default function Add() {
 		console.log("Formulário: ",form)
 		// passar para action, dispara uma action
 		dispatch(addCar(form));
+
+		// Zerar form
+		setForm({name: '', url: ''});
 	}
 
 	return (

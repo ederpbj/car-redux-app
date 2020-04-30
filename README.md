@@ -2,14 +2,18 @@ Git hub do projeto [Meu git](https://github.com/ederpbj/car-redux-app).
 
 ## Comando no terminal
 |Descrição|Comando|
+|-------|------|
 |Testar projeto|yarn start|
+|-------|------|
 |Instalar reactjs|npm install -g create-react-app|
+|-------|------|
 |Criar projeto|`create-react-app car-redux-app`|
 |-------|------|
 
 # T2
 
 |Teste|Teste1|
+|-----|------|
 |Teste|Teste2|
 |-----|------|
 

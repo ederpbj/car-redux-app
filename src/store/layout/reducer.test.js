@@ -15,7 +15,7 @@ describe('Layout Reducer', () => {
         
         // teste false
         test('deve retornar o state com a props showMessage= false', () => {
-            expect(reducer(showMessage: true, {type: 'HIDE_MESSAGE'})).toEqual({showMessage: false});
+            expect(reducer(undefined, {type: 'HIDE_MESSAGE'})).toEqual({showMessage: false});
         })
        
     })

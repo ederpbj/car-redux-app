@@ -55,4 +55,4 @@ Testar Toolkit|`yarn add @reduxjs/toolkit`
 
 [Aula 6: Desvendando o Redux #6: Desenvolvendo o Back-End | API | NodeJS | MongoDB](https://www.youtube.com/watch?v=cYXwh69HXfU&list=PLK5FPzMuRKlyILd8Jh08M6a1-htpHYzwv&index=6&ab_channel=WashingtonDeveloper)
 
-- Iniciar back-end|`yarn init`
+- Iniciar back-end| `yarn init`

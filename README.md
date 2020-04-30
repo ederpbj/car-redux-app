@@ -47,14 +47,12 @@ Testar Toolkit|`yarn add @reduxjs/toolkit`
 [Aula 4: Desvendando o Redux #4: Testes unitários | Actions Creators | Actions Types | Reducer de Layout](https://www.youtube.com/watch?v=SpZ3lnT_AbM&list=PLK5FPzMuRKlyILd8Jh08M6a1-htpHYzwv&index=4&ab_channel=WashingtonDeveloper)
 
 
-Testar com jest|`yarn test`
+- Testar com jest|`yarn test`
 
 [Aula 5: Desvendando o Redux #5: Adicionando a Biblioteca Redux-Toolkit](https://www.youtube.com/watch?v=QT_nWZwRdLg&list=PLK5FPzMuRKlyILd8Jh08M6a1-htpHYzwv&index=5)
 
-----|----
-Testar Toolkit|`yarn add @reduxjs/toolkit`
+- Testar Toolkit|`yarn add @reduxjs/toolkit`
 
 [Aula 6: Desvendando o Redux #6: Desenvolvendo o Back-End | API | NodeJS | MongoDB](https://www.youtube.com/watch?v=cYXwh69HXfU&list=PLK5FPzMuRKlyILd8Jh08M6a1-htpHYzwv&index=6&ab_channel=WashingtonDeveloper)
 
-
-Iniciar back-end|`yarn init`
+- Iniciar back-end|`yarn init`

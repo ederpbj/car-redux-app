@@ -32,7 +32,10 @@ Git hub do projeto [Meu git](https://github.com/ederpbj/car-redux-app).
 #### Adicionar react-redux
 #### `yarn add react-redux`
 
-## Uteis 
+#### Testar com jest
+#### `yarn test`
+
+## Links Uteis 
 
 ### Fotos Gratuitas (url)
 [Pixels](https://www.pexels.com/pt-br/)
@@ -46,6 +49,16 @@ Git hub do projeto [Meu git](https://github.com/ederpbj/car-redux-app).
 ### BootstrapCDN
 [BootstrapCDN](https://www.bootstrapcdn.com/bootswatch/)
 
+### Redux
+[Redux oficial](https://redux.js.org/)
+
+### Redux tests
+[Redux test](https://redux.js.org/recipes/writing-tests)
+
+### Redux Toolkit
+Facilita utilização do redux
+[Redux Toolkit](https://redux-toolkit.js.org/)
+
 ## Aulas 
 
 ### Desvendando redux 
@@ -54,3 +67,8 @@ Git hub do projeto [Meu git](https://github.com/ederpbj/car-redux-app).
 ### Desvendando o Redux #3: Reducer de alerta de Messagem
 [Aula 3](https://www.youtube.com/watch?v=q0cca7fcpJ0&list=PLK5FPzMuRKlyILd8Jh08M6a1-htpHYzwv&index=3&ab_channel=WashingtonDeveloper)
 
+### Desvendando o Redux #4: Testes unitários | Actions Creators | Actions Types | Reducer de Layout
+[Aula 4](https://www.youtube.com/watch?v=SpZ3lnT_AbM&list=PLK5FPzMuRKlyILd8Jh08M6a1-htpHYzwv&index=4&ab_channel=WashingtonDeveloper)
+
+#### Testar com jest
+#### `yarn test`

@@ -5,7 +5,10 @@ import { useDispatch } from "react-redux";
 
 // importar a actions
 import {addCar} from '../../store/cars'
-import {showMessage, hideMessage} from '../../store/layout'
+// import {showMessage, hideMessage} from '../../store/layout'
+import {Creators as CreatorsLayout} from '../../store/layout'
+
+
 
 export default function Add() {
 	const [form, setForm] = useState({name: '', url: ''});
@@ -20,6 +23,9 @@ export default function Add() {
 
 	function onSubmit(e){
 		e.preventDefault();
+
+		const {hideMessage, showMessage} = CreatorsLayout;
+		
 		console.log("Formulário: ",form)
 		// passar para action, 
 		// dispara uma action

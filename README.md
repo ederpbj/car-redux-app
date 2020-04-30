@@ -35,6 +35,9 @@ Git hub do projeto [Meu git](https://github.com/ederpbj/car-redux-app).
 #### Testar com jest
 #### `yarn test`
 
+#### Testar Toolkit
+#### `yarn add @reduxjs/toolkit`
+
 ## Links Uteis 
 
 ### Fotos Gratuitas (url)
@@ -72,3 +75,9 @@ Facilita utilização do redux
 
 #### Testar com jest
 #### `yarn test`
+
+### Desvendando o Redux #5: Adicionando a Biblioteca Redux-Toolkit
+[Aula 5](https://www.youtube.com/watch?v=QT_nWZwRdLg&list=PLK5FPzMuRKlyILd8Jh08M6a1-htpHYzwv&index=5)
+
+#### Testar Toolkit
+#### `yarn add @reduxjs/toolkit`

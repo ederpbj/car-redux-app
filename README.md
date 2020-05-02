@@ -1,4 +1,6 @@
-Git hub do projeto [Meu git](https://github.com/ederpbj/car-redux-app).
+Git hub do projeto 
+[Front-end](https://github.com/ederpbj/car-redux-app)
+[Back-and](https://github.com/ederpbj/shopping-car-api)
 
 ## Comando no terminal
 
@@ -57,4 +59,4 @@ Testar Toolkit|`yarn add @reduxjs/toolkit`
 
 - Iniciar back-end| `yarn init`
 
-[Criando API - Continuação](https://github.com/ederpbj/shopping-car-api)
+[Criando API - Back-and](https://github.com/ederpbj/shopping-car-api)

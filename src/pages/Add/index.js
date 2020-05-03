@@ -4,11 +4,11 @@ import React, {useState} from 'react';
 import { useDispatch } from "react-redux";
 
 // importar a actions
-import {addCar} from '../../store/cars'
-import {showMessage, hideMessage} from '../../store/layout' //v1 e v3
+// import {addCar} from '../../store/ducks/cars'
+import {showMessage, hideMessage} from '../../store/ducks/layout' //v1 e v3
 // import {Creators as CreatorsLayout} from '../../store/layout' //v2
 
-
+import {addCarFetch} from '../../store/fetchActions'
 
 export default function Add() {
 	const [form, setForm] = useState({name: '', url: ''});
@@ -26,10 +26,11 @@ export default function Add() {
 
 		// const {hideMessage, showMessage} = CreatorsLayout; //v2
 		
-		console.log("Formulário: ",form)
+		// console.log("Formulário: ",form)
 		// passar para action, 
 		// dispara uma action
-		dispatch(addCar(form));
+		dispatch(addCarFetch(form));
+		// dispatch(addCar(form));
 
 		// Zerar form
 		setForm({name: '', url: ''});

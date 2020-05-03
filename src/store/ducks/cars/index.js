@@ -4,10 +4,12 @@ const INITIAL_STATE = []
 
 // Action
 export const addCar = createAction('ADD_CAR')
+export const addCars = createAction('ADD_CARS')
 
 // Reducer
 export default createReducer(INITIAL_STATE, {
-	[addCar.type]: (state, action) => [...state, action.payload]
+	[addCar.type]: (state, action) => [...state, action.payload],
+	[addCars.type]: (state, action) => [...action.payload]
 })
 
 // state é inicializado pelo store

@@ -62,3 +62,7 @@ Testar Toolkit|`yarn add @reduxjs/toolkit`
 - Iniciar back-end| `yarn init`
 
 [Criando API - Back-and](https://github.com/ederpbj/shopping-car-api)
+
+[Desvendando o Redux #8: Integração Part-2 | Duck Pattern | Fetch Actions | CORS | Redux-Thunk |](https://www.youtube.com/watch?v=oN7wuGz_sA0&list=PLK5FPzMuRKlyILd8Jh08M6a1-htpHYzwv&index=8&ab_channel=WashingtonDeveloper)
+
+Instalar axios | `yarn add axios`

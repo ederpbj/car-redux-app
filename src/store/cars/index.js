@@ -1,7 +1,18 @@
 // Reducer de cars
+import {createAction, createReducer} from '@reduxjs/toolkit'
+const INITIAL_STATE = []
+
+// Action
+export const addCar = createAction('ADD_CAR')
+
+// Reducer
+export default createReducer(INITIAL_STATE, {
+	[addCar.type]: (state, action) => [...state, action.payload]
+})
 
 // state é inicializado pelo store
 // caso de um redux só
+/* V1
 const INITIAL_STATE = [
 	{
 		name: 'Ferrari',
@@ -19,20 +30,22 @@ const INITIAL_STATE = [
 			'https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
 	}
 ]
+*/
 
 // caso state seja undefined state retorna array vazio []
 // Setando initial_state com lista de carros
-export default function reducer(state = INITIAL_STATE, action) {
+// Reducer V1
+/* export default function reducer(state = INITIAL_STATE, action) {
     if(action.type === 'ADD_CAR'){
         return [...state, action.car];
     }
     return state
-}
+} */
 
-// Criando action
-export const addCar = car => {
+// Criando action V1
+/* export const addCar = car => {
     return{
         type: 'ADD_CAR',
         car
     }
-}
+} */

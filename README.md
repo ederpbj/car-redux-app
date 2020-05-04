@@ -42,6 +42,9 @@ Testar Toolkit|`yarn add @reduxjs/toolkit`
 [Redux Toolkit](https://redux-toolkit.js.org/)
 - Facilita utilização do redux
 
+[Axios simples](https://www.youtube.com/watch?v=d7bKeG9hb-0&ab_channel=VictorLima-GuiadoProgramador)
+
+
 ## Aulas 
 
 [Aula 2: Desvendando redux ](https://www.youtube.com/watch?v=4LIcojw7484&list=PLK5FPzMuRKlyILd8Jh08M6a1-htpHYzwv&index=2&ab_channel=WashingtonDeveloper)

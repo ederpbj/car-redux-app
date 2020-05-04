@@ -4,12 +4,15 @@ import {configureStore} from '@reduxjs/toolkit'
 
 import carReducer from './ducks/cars'
 import layoutReducer from './ducks/layout'
+import cartReducer from './ducks/cart'
+
 
 // Middleware e redux pronto
 export default configureStore({
 	reducer: {
 		cars: carReducer,
-		layout: layoutReducer
+		layout: layoutReducer,
+		cart: cartReducer,
 	}
 })
 

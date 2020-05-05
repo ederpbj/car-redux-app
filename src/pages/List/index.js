@@ -8,6 +8,7 @@ import {useSelector, useDispatch} from 'react-redux'
 import {getAllCars} from '../../store/fetchActions/'
 // Importar função para adicionar no carrinho
 import {addItem} from '../../store/ducks/cart'
+import {addMessage} from '../../store/ducks/layout'
 
 // Remover para usar initial_state
 // const cars = [];
@@ -34,6 +35,8 @@ export default function List() {
 		// recebe carrinho que vai adicionar
 		dispatch(addItem(car))
 		// console.log(car)
+
+		dispatch(addMessage(`${car.name} adicionado com sucesso!`))
 	}
 
 	return (

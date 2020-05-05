@@ -5,7 +5,8 @@ import { useDispatch } from "react-redux";
 
 // importar a actions
 // import {addCar} from '../../store/ducks/cars'
-import {showMessage, hideMessage} from '../../store/ducks/layout' //v1 e v3
+import { addMessage} from '../../store/ducks/layout' //v4
+// import {showMessage, hideMessage} from '../../store/ducks/layout' //v1 e v3
 // import {Creators as CreatorsLayout} from '../../store/layout' //v2
 
 import {addCarFetch} from '../../store/fetchActions'
@@ -35,13 +36,16 @@ export default function Add() {
 		// Zerar form
 		setForm({name: '', url: ''});
 
+		dispatch(addMessage('Cadastrado com sucesso!'))
+		
+		// Message v1
 		// disparar
-		dispatch(showMessage());
+		/* dispatch(showMessage());
 
 		// apagar message
 		setTimeout(() => {
 			dispatch(hideMessage());
-		}, 2500);
+		}, 2500); */
 	}
 
 	return (

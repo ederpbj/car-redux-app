@@ -2,15 +2,15 @@ import React from 'react';
 import {useSelector, useDispatch} from 'react-redux'
 import {removeItem} from '../../store/ducks/cart'
 import ItemCart from '../../components/ItemCart'
-
+import {addMessage} from '../../store/ducks/layout'
 
 export default function Cart() {
-	const cart = useSelector(state => state.cart)
-
+	const cart = useSelector((state) => state.cart)
 	const dispatch = useDispatch()
 
-	function removeItemCart(id){
-		dispatch(removeItem(id))
+	function removeItemCart(car){
+		dispatch(removeItem(car._id))
+		dispatch(addMessage(`${car.name}  removido com sucesso!`))
 		// console.log(id)
 	}
 
@@ -20,7 +20,7 @@ export default function Cart() {
 				{cart.length === 0 ? 
 					<p className="col-sm-12 mt-5 text-warning text-center">Sem produtos...</p>: 
 					<React.Fragment>
-						{cart.map(item => <ItemCart key={item._id} item={item} removeItemCart={removeItemCart} /> )}
+						{cart.map((item) => <ItemCart key={item._id} item={item} removeItemCart={removeItemCart} /> )}
 					</React.Fragment>
 					
 				}

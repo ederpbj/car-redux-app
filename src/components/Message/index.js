@@ -1,22 +1,25 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
-// conectar com redux
-import {useSelector} from 'react-redux'
+import {useDispatch} from 'react-redux'
+import {removeMessage} from '../../store/ducks/layout'
 
-export default function Message() {
-    // verificar dentro do state.layout
-    const isShow = useSelector((state) => state.layout.showMessage)
-    
+
+export default function Message({message}) {
+    const dispatch = useDispatch()
+
+    // após 2,5 segundo adicioa e remove a msg na tela
+    // Quando montar ou desmontar o componente
+    useEffect(() => {
+        setTimeout(() => {
+            dispatch(removeMessage(message))
+        }, 2500)
+    }, [dispatch, message])
+
     return (
-        <React.Fragment>
-            {/* Se for verdadeiro mostre */}
-            {isShow && (
-                <div className="container mt-3">
-                    <div className="alert alert-success" role="alert">
-                        Cadastro realizado com sucesso!
-                    </div>
-                </div>
-            )}
-        </React.Fragment>
+        <div className="container mt-3">
+            <div className="alert alert-success" role="alert">
+                {message}
+            </div>
+        </div>
     )
 }

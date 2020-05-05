@@ -74,3 +74,4 @@ Instalar axios | `yarn add axios`
 
 [Desvendando o Redux #9: Implementando o carrinho de compras](https://www.youtube.com/watch?v=SPUGoDSKk14&list=PLK5FPzMuRKlyILd8Jh08M6a1-htpHYzwv&index=9)
 
+[Desvendando o Redux #10: Refatorando as mensagens](https://www.youtube.com/watch?v=fjSYs7ZHRzo&list=PLK5FPzMuRKlyILd8Jh08M6a1-htpHYzwv&index=11&ab_channel=WashingtonDeveloper)

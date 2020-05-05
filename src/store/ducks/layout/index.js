@@ -2,16 +2,25 @@ import {createAction, createReducer} from '@reduxjs/toolkit'
 
 const INITIAL_STATE = {
     // Propriedade do state.layout
-    showMessage: false
+    // showMessage: false,
+    messages: []
 };
 // Actions v3
-export const showMessage = createAction('SHOW_MESSAGE');
-export const hideMessage = createAction('HIDE_MESSAGE');
+// export const showMessage = createAction('SHOW_MESSAGE');
+// export const hideMessage = createAction('HIDE_MESSAGE');
+export const addMessage = createAction('ADD_MESSAGE');
+export const removeMessage = createAction('REMOVE_MESSAGE');
 
 // Reducer v3
 export default createReducer(INITIAL_STATE, {
-    [showMessage.type]: (state, action) => ({...state, showMessage: true}),
-    [hideMessage.type]: (state, action) => ({...state, showMessage: false})
+    // [showMessage.type]: (state, action) => ({...state, showMessage: true}),
+    // [hideMessage.type]: (state, action) => ({...state, showMessage: false}),
+    // Adiciona mensagens do carrinho um array
+    [addMessage.type]: (state, action) => ({ ...state, messages: [...state.messages, action.payload]}),
+    [removeMessage.type]: (state, action) => ({
+         ...state, 
+         messages: state.messages.filter((msg) => msg !== action.payload)
+    })
 })
 
 // Reducer para layout global v1

@@ -1,5 +1,5 @@
 // Middleware
-import api from '../../services/api'
+// import api from '../../services/api'
 import {addCars, addCar} from '../ducks/cars'
 
 var axios = require('axios')

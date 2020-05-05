@@ -6,6 +6,8 @@ import {useSelector, useDispatch} from 'react-redux'
 
 // importar action fatchActions
 import {getAllCars} from '../../store/fetchActions/'
+// Importar função para adicionar no carrinho
+import {addItem} from '../../store/ducks/cart'
 
 // Remover para usar initial_state
 // const cars = [];
@@ -29,7 +31,9 @@ export default function List() {
 	);
 
 	function addItemCart(car){
-		console.log(car)
+		// recebe carrinho que vai adicionar
+		dispatch(addItem(car))
+		// console.log(car)
 	}
 
 	return (

@@ -44,6 +44,8 @@ Testar Toolkit|`yarn add @reduxjs/toolkit`
 
 [Axios simples](https://www.youtube.com/watch?v=d7bKeG9hb-0&ab_channel=VictorLima-GuiadoProgramador)
 
+[Bootstrap cards](https://getbootstrap.com.br/docs/4.1/components/card/)
+
 
 ## Aulas 
 
@@ -69,3 +71,6 @@ Testar Toolkit|`yarn add @reduxjs/toolkit`
 [Desvendando o Redux #8: Integração Part-2 | Duck Pattern | Fetch Actions | CORS | Redux-Thunk |](https://www.youtube.com/watch?v=oN7wuGz_sA0&list=PLK5FPzMuRKlyILd8Jh08M6a1-htpHYzwv&index=8&ab_channel=WashingtonDeveloper)
 
 Instalar axios | `yarn add axios`
+
+[Desvendando o Redux #9: Implementando o carrinho de compras](https://www.youtube.com/watch?v=SPUGoDSKk14&list=PLK5FPzMuRKlyILd8Jh08M6a1-htpHYzwv&index=9)
+

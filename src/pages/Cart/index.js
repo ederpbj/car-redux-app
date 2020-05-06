@@ -22,9 +22,7 @@ export default function Cart() {
 					<React.Fragment>
 						{cart.map((item) => <ItemCart key={item._id} item={item} removeItemCart={removeItemCart} /> )}
 					</React.Fragment>
-					
 				}
-				
 			</div>
 		</div>
 	)

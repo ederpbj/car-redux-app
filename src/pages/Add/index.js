@@ -20,6 +20,8 @@ export default function Add() {
 	function formChange(e){
 		// console.log(e.target.name);
 		setForm({...form, [e.target.name]: e.target.value })
+
+		
 	}
 
 	function onSubmit(e){
@@ -30,6 +32,7 @@ export default function Add() {
 		// console.log("Formulário: ",form)
 		// passar para action, 
 		// dispara uma action
+		console.log(form)
 		dispatch(addCarFetch(form));
 		// dispatch(addCar(form));
 

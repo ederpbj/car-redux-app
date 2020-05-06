@@ -32,12 +32,14 @@ export default function List() {
 	);
 
 	function addItemCart(car){
+		
 		// recebe carrinho que vai adicionar
 		dispatch(addItem(car))
 		// console.log(car)
 
 		dispatch(addMessage(`${car.name} adicionado com sucesso!`))
 	}
+
 
 	return (
 		<div className="container-fluid">

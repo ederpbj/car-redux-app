@@ -46,6 +46,7 @@ Testar Toolkit|`yarn add @reduxjs/toolkit`
 
 [Bootstrap cards](https://getbootstrap.com.br/docs/4.1/components/card/)
 
+[Iniciando com ReactJS: Navegação e Autenticação com JWT](https://blog.rocketseat.com.br/reactjs-autenticacao/)
 
 ## Aulas 
 
@@ -75,3 +76,5 @@ Instalar axios | `yarn add axios`
 [Desvendando o Redux #9: Implementando o carrinho de compras](https://www.youtube.com/watch?v=SPUGoDSKk14&list=PLK5FPzMuRKlyILd8Jh08M6a1-htpHYzwv&index=9)
 
 [Desvendando o Redux #10: Refatorando as mensagens](https://www.youtube.com/watch?v=fjSYs7ZHRzo&list=PLK5FPzMuRKlyILd8Jh08M6a1-htpHYzwv&index=11&ab_channel=WashingtonDeveloper)
+
+[Desvendando o Redux #11: Part-1 | Autenticação | JWT | PrivateRoute](https://www.youtube.com/watch?v=RNHr47Qqm3U&list=PLK5FPzMuRKlyILd8Jh08M6a1-htpHYzwv&index=10&ab_channel=WashingtonDeveloper)
